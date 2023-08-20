@@ -6,11 +6,11 @@ requires = ["setuptools"]
 authors = [{ name = "Tim D. Smith", email = "tim@tds.xyz" }]
 classifiers = ["License :: OSI Approved :: Apache Software License"]
 dependencies = ["attrs", "pandas", "pyserial", "typer", "typing_extensions"]
-description = "Support for US Swimming SDIF v3 files"
+description = "Utility for certain RadioShack PRO-branded radio scanners"
 name = "rspro82"
 readme = "README.md"
 requires-python = ">=3.9"
-version = "23.8.0"
+version = "23.8.0.post0"
 
 [project.optional-dependencies]
 dev = ["black", "pip-tools", "pyright", "pytest"]
